@@ -1,8 +1,6 @@
-# flutter_locale
+## Localization with GetX-In Flutter
 
-Localization with GetX-In Flutter
-
-## Implementation
+### Implementation
 
 GetX has made it very easy to implement the localization very easy. You can achieve this in a few steps
 - Wrap you MaterialApp widget with GetMaterialApp and set the device locale as the default app locale for the application using locale: Get.deviceLocale what this will do is that it will get the user's default locale and set it to apps locale.
